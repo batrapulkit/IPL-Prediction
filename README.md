@@ -4,7 +4,7 @@ This project predicts whether a cricket team will score 30 or more runs in the f
 
 ## Project Overview
 
-The model uses various features including:
+The model uses various features, including:
 
 - **Average runs scored by the batting team in the first 3 overs**.
 - **Average runs conceded by the bowling team in the first 3 overs**.
@@ -14,7 +14,7 @@ Using these features, a logistic regression model predicts whether the batting t
 
 ## Requirements
 
-- Python 3.x
+- Python 3.11
 - pandas
 - scikit-learn
 - joblib
@@ -48,11 +48,11 @@ Calculate the total runs scored in the first 3 overs by summing runs scored by t
 
 ## Feature Engineering:
 
-Calculate average runs scored by each team in the first 3 overs.
+Calculate the average runs scored by each team in the first 3 overs.
 
-Calculate average runs conceded by each bowling team.
+Calculate the average runs conceded by each bowling team.
 
-Calculate average runs scored at each venue.
+Calculate the average runs scored at each venue.
 
 ## Model Training:
 
@@ -63,4 +63,4 @@ A logistic regression model is trained to predict whether a team will score 30 o
 The model is evaluated using accuracy and classification report metrics.
 
 ## Results
-The model provides predictions on whether a team will score 30+ runs in the first 3 overs based on historical data. The predictions are made with an accuracy that is evaluated using the classification report.
+The model predicts whether a team will score 30+ runs in the first 3 overs based on historical data. The predictions are made with an accuracy that is evaluated using the classification report.
